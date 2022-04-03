@@ -1,0 +1,18 @@
+{
+    "description": "Aims to provide a painless starting point and playground to Kafka for php-developers with help of docker-compose.",
+    "name": "d3mo17/kafka-sandbox",
+    "version": "0.9.0",
+    "type": "project",
+    "minimum-stability": "dev",
+    "license": "mit",
+    "keywords": ["kafka", "sandbox", "playground"],
+    "authors": [
+      {
+        "name": "Daniel Moritz"
+      }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "erusev/parsedown": "^2.0"
+    }
+}
