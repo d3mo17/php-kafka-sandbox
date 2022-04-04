@@ -19,7 +19,7 @@ services:
       - ./docker/php.ini:/usr/local/etc/php/php.ini
 
   composer:
-    image: composer:latest
+    build: ./docker/composer
     container_name: pksb-composer
     command: ["composer", "install"]
     volumes:
