@@ -1,6 +1,6 @@
 ## Welcome to your Kafka Sandbox!
 
-[Kafka Toolbox Examples](examples/) \
+[Kafka Toolbox Examples](examples/index.md) \
 [Kafka UI](http://localhost:8080) \
 [php-info](info.php)
 
