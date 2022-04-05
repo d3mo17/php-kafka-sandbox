@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/retro.css">
 <?php
 
 require_once('vendor/autoload.php');
