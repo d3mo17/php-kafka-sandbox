@@ -1,4 +1,4 @@
-FROM composer:latest
+FROM renebakx/composer-php74:2.2.5
 
 # Easy extension installer (with dependencies)
 # https://github.com/mlocati/docker-php-extension-installer
