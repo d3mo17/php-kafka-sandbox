@@ -13,6 +13,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "erusev/parsedown": "^2.0"
+        "erusev/parsedown": "^2.0",
+        "d3mo17/kafka-tools": "^0.9"
     }
 }

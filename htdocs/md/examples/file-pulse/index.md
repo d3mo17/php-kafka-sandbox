@@ -16,7 +16,7 @@ Use [Kafka UI](http://localhost:8080/ui/clusters/local/connectors) to create new
 	"tasks.file.status.storage.topic": "connect-file-pulse-status",
 	"tasks.reader.class": "io.streamthoughts.kafka.connect.filepulse.fs.reader.LocalXMLFileInputReader",
 	"fs.listing.directory.path": "/tmp/kafka-connect/file-pulse-xml-example/",
-	"reader.xml.parser.namespace.aware.enabled": "true",
+	"reader.xml.parser.namespace.aware.enabled": "false",
 	"tasks.file.status.storage.bootstrap.servers": "broker:29092",
 	"tasks.file.status.storage.topic.partitions": "10",
 	"fs.cleanup.policy.class": "io.streamthoughts.kafka.connect.filepulse.fs.clean.DeleteCleanupPolicy",
