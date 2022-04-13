@@ -7,6 +7,4 @@ ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/do
 RUN chmod +x /usr/local/bin/install-php-extensions
 
 # Install extensions
-# gd bcmath pdo_mysql soap zip required by oxid
-# mysql required by d3/modcfg
 RUN install-php-extensions rdkafka
